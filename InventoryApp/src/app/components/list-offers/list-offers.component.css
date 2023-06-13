@@ -1,0 +1,41 @@
+table {
+    width: 100%;
+    justify-content: center;
+    padding: auto;
+    height: auto;
+}
+ul li {
+    list-style: none;
+}
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+span {
+    margin: auto;
+    text-align: center;
+}
+.mat-cell:nth-child(1),
+.mat-header-cell:nth-child(1) {
+    flex: 0 0 6%;
+}
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+button {
+    margin: 0px 2px;
+}
+mat-form-field {
+    width: 140%;
+}
+.narvar {
+    background-color: orange;
+}
+ng-container .th{
+    padding: 1200px;
+    text-align: center;
+}
+mat-form-field {
+    width: 300px;
+}

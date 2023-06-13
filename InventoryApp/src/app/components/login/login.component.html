@@ -1,0 +1,69 @@
+<body>
+    <section class="container">
+        <section class="container-img">
+            <p>lo</p>
+        </section>
+        <section class="container-login">
+
+            <form [formGroup]="myForm" autocomplete="off" class="example-form">
+                <div class="main-text">
+                    <h1> Inicia sesion </h1>
+                </div>
+                <div class="main-form">
+                    <div class="container-email">
+                        <mat-form-field>
+                            <mat-label>Email</mat-label>
+                            <input matInput formControlName="email" />
+                        </mat-form-field>
+                        <div class="input-text">
+                            <div *ngIf="
+                                                  myForm.get('email')?.hasError('required') &&
+                                                myForm.get('email')?.touched
+                                                 " style="margin-top: -20px">
+                                <span class="mda-form-msg">Ingresar el Email correctamente</span>
+                            </div>
+                            <div *ngIf="myForm.get('email')?.hasError('minlength')" style="margin-top: -20px">
+                                <span class="mda-form-msg">
+                                    Este campo debe tener como máximo 10 caracteres
+                                </span>
+                            </div>
+                            <div *ngIf="myForm.get('email')?.hasError('email')" style="margin-top: -20px">
+                                <span class="mda-form-msg">
+                                    Este campo debe tener un email correcto
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="container-password">
+                    <mat-form-field>
+                        <mat-label>Contraseña</mat-label>
+                        <input matInput formControlName="password" />
+                    </mat-form-field>
+            <div class="input-text">
+                <div *ngIf="
+                     myForm.get('password')?.hasError('required') &&
+                      myForm.get('password')?.touched
+                    " style="margin-top: -20px">
+           <span class="mda-form-msg">Ingresar la contraseña correctamente</span>
+             </div>
+          <div *ngIf="myForm.get('password')?.hasError('minlength')" style="margin-top: -20px">
+          <span class="mda-form-msg">
+             Este campo debe tener como minmo de 10 caracteres
+            </span>
+           </div>
+
+              </div>
+                    </div>
+                    <button class="btn-success" type="button" [disabled]="myForm.invalid" routerLink='/home'>
+                        Iniciar
+                    </button>
+                    <button class="btn-success" type="button" routerLink='/registration'>
+                        Registrate
+                    </button>
+                </div>
+            </form>
+
+        </section>
+    </section>
+</body>

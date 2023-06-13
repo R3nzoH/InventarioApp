@@ -1,0 +1,103 @@
+body {
+    background-color: #fde578;
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-img {
+    width: 300px;
+}
+
+.example-form {
+    width: 400px;
+    height: auto;
+}
+
+.main-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+h1 {
+    align-items: center;
+    color: white;
+}
+
+label {
+    color: gray;
+}
+
+.container-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 500px;
+    border-radius: 20px;
+    background-color:gray;
+    margin: 90px;
+    position: relative;
+}
+.input-text {
+    padding: 1px;
+    width: 510px;
+}
+.container-form {
+    width: 30px;
+    justify-content: center;
+
+}
+span {
+    color: red;
+}
+.main-form {
+    margin: 40px;
+}
+
+input {
+
+    padding: 6px;
+    border-radius: 8px;
+    background-color: white;
+}
+mat-form-field {
+    width: 300px;
+}
+.container-name {
+    width: 100px;
+    height: 70px;
+}
+
+.container-lastname {
+    width: 100px;
+    height: 70px;
+}
+
+.container-email {
+    width: 100px;
+    height: 70px;
+}
+
+.container-password {
+    width: 100px;
+    height: 70px;
+}
+
+.btn-success {
+    display: inline-block;
+    background-color: orange;
+    border: 0px;
+    margin: 20px;
+    border-radius: 4px;
+    padding: 8px 25px;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}

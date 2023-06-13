@@ -1,0 +1,89 @@
+{
+  "offers": [
+    {
+      "id": 7,
+      "title": "Mouse Logitchasdasd",
+      "description": "Producto barato y bonito asdas das",
+      "points": "120",
+      "businessId": "11",
+      "url": "https://ripleype.imgix.net/https%3A%2F%2Fdpq25p1ucac70.cloudfront.net%2Fseller-place-files%2Fmrkl-files%2F1122%2FELECTROHOGAR%2F1079520_1_211651319757_61_155313119767_61.jpeg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=f6096a8335b426599ab886f3033f4a27"
+    },
+    {
+      "id": 8,
+      "title": "Mouse Pad",
+      "description": "MousePad para el uso ejecutivo",
+      "points": "120",
+      "businessId": "14",
+      "url": "https://cyccomputer.pe/37237-large_default/mouse-pad-logitech-g440-hard-medium-gaming-black-pn943-000098.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Teclado Inalámbrico ",
+      "description": "Este teclado tiene como obejtivo la funcionalidad de usarse por Bluetood",
+      "points": "130",
+      "businessId": "12",
+      "url": "https://datalockperu.com/wp-content/uploads/2020/10/Teclado-Inalambrico-Logitech-K400-Plus.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Laptoo Lenovo",
+      "description": "Tiene una gran capacidad de almacenamiento",
+      "points": "1500",
+      "businessId": "17",
+      "url": "https://www.lenovo.com/medias/lenovo-laptops-thinkbook-16-gen-4-intel-hero.png?context=bWFzdGVyfHJvb3R8MzQ1OTM2fGltYWdlL3BuZ3xoMjEvaGZkLzEzMjU1MTI1OTkxNDU0LnBuZ3xlMGJjMDAyZjIzYzczYmY0YTY3NTlmODcwMDJjZTBhMzg5M2VlMjFlNTNlZWJkZDMyNDA3MTdlNjc3NjhhZWY5"
+    },
+    {
+      "id": 11,
+      "title": "Monitor 12 32",
+      "description": "Monitor con cpu y memoria",
+      "points": "1900",
+      "businessId": "10",
+      "url": ""
+    },
+    {
+      "id": 12,
+      "title": "REasd",
+      "description": "AKSDASF",
+      "points": "1250",
+      "businessId": "1360",
+      "url": "AXASDAD"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Renzo",
+      "lastmane": "Herrera",
+      "email": "Soy alumnos de la upc",
+      "password": 12
+    },
+    {
+      "id": 2,
+      "name": "Romina ",
+      "lastname": "Huamani ",
+      "email": "Romina@gmail.com",
+      "password": "QW123"
+    },
+    {
+      "id": 3,
+      "name": "",
+      "lastname": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": 4,
+      "name": "Renzo",
+      "lastname": "Romina",
+      "email": "Earasd@mail.com",
+      "password": "Pedos.12"
+    },
+    {
+      "id": 5,
+      "name": "Renzo Antonio",
+      "lastname": "Herrera Castro",
+      "email": "Pedos@gmail.com",
+      "password": ""
+    }
+  ]
+}

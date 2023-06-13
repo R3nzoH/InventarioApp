@@ -1,0 +1,41 @@
+<mat-toolbar class="narvar">
+    <mat-toolbar-row>
+        <span>Empresa</span>
+        <span class="example-spacer"></span>
+        <button mat-raised-button [routerLink]="'/home'">Inicio</button>
+        <button mat-raised-button [routerLink]="'/business/offers'">
+            Productos
+        </button>
+    </mat-toolbar-row>
+</mat-toolbar>
+<div class="subtitle">
+        <mat-card-title>Productos Registrados</mat-card-title>
+        <br />
+        <mat-card-subtitle 
+        *ngFor="let offer of offers; last as isLast">
+            <span *ngIf="isLast"> {{ offer.id }}</span>
+        </mat-card-subtitle>
+</div>
+<div class=" container">
+
+
+<div class="Element" *ngFor="let offer of offers; last as isLast">
+    <mat-card >
+        <mat-card-title> Codigo: 00000{{ offer.id }}</mat-card-title>
+        <br />
+        <mat-card-subtitle >
+
+            <h1>Nombre del producto: {{ offer.title }}</h1>
+
+        </mat-card-subtitle>
+                <mat-card-subtitle>
+                
+                     <img src="{{ offer.url}}" alt="">
+                
+                </mat-card-subtitle>
+                <mat-card-subtitle>
+                    Descripcion del producto: {{ offer.description }}
+                </mat-card-subtitle>
+    </mat-card>
+</div>
+</div>
